@@ -8,13 +8,13 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '+', case_insensitive=True)
+client = commands.Bot(command_prefix = '>', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name='|Contact Shafat for Buying This Bot|'))
+    await client.change_presence(game=discord.Game(name='Server Promotion DM contact @! RﾑW父MﾑF͜͡iﾑ#9822 | To Make your own bot Contact RﾑW父VENOM or Shafat'))
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
@@ -39,10 +39,10 @@ async def send(ctx, *, content: str):
         for member in ctx.message.server.members:
             try:
                 await client.send_message(member, content)
-                await client.say("DM Sent To : {} :white_check_mark:  ".format(member))
+                await client.say("Shafat made the Bot Said DM Sent To : {} :white_check_mark:  ".format(member))
             except:
                 print("can't")
-                await client.say("DM can't Sent To : {} :x: ".format(member))
+                await client.say("Shafat Made the Bot Said DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NTk1MTU3MDA3NDA1OTQwNzM3.XpFe7g.cKI4UDEiUjU0cAvn7DbNwezwqX4")  
+client.run("Njk4OTc3OTI2Njg2OTY1NzYw.XpQBvQ.yNPMM9zAR9RJz8JyZ8mWyPPUfGI")
