@@ -14,7 +14,7 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name='Server Promotion DM contact @! RﾑW父MﾑF͜͡iﾑ#9822 | To Make your own bot Contact RﾑW父VENOM or Shafat'))
+    await client.change_presence(game=discord.Game(name='Contact Shafat for Buying This Bot'))
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
@@ -45,4 +45,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run(" Njk4OTc3OTI2Njg2OTY1NzYw.XpQDPA.i0YOSzf3aJFVAxGw7oR4W3Lb5iI ")
+client.run("Njk5MTQ5MTcwMTkxMjM3MTUy.XpQLfA.LigWK_Ux_LSeWp3nTz56yhL2zx0") 
